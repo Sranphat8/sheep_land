@@ -4,43 +4,123 @@
     <meta charset="UTF-8">
     <title>Dorper - Sheepland</title>
     <link rel="stylesheet" href="sheep.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
     <h1>🐑 Sheepland</h1>
     <nav>
-        <a href="index.html">Home</a>
+        <a href="sheep.html">Home</a>
     </nav>
 </header>
 
 <section class="detail">
-    <h2>Dorper</h2>
-    <img src="images/dorper.jpg" class="detail-img">
+    <h2>Dorper (ดอร์เปอร์)</h2>
+    <p>แกะเนื้อคุณภาพสูง ทนทานต่อทุกสภาพอากาศ</p>
 
-    <div class="detail-card">
-        <h3>ข้อมูลทั่วไป</h3>
-        <p>Dorper เป็นแกะเนื้อจากแอฟริกาใต้ โตเร็ว ทนร้อน เหมาะกับสภาพอากาศไทย</p>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="https://images.unsplash.com/photo-1551411997-1660e89bbec8?w=600&auto=format&fit=crop&q=60" class="d-block w-100" alt="Dorper 3">
+               
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://media.istockphoto.com/id/2236850663/photo/close-up-of-young-santa-in%C3%AAs-and-dorper-crossbreed-lambs-in-a-f.webp?a=1&b=1&s=612x612&w=0&k=20&c=d-0u0GovtqG8oKlbOhr-v-ErlzREtzNomOl_-xntytM=" class="d-block w-100" alt="Dorper 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                 <img src="https://media.istockphoto.com/id/2253951328/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B9%81%E0%B8%81%E0%B8%B0%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%AA%E0%B8%B5%E0%B8%82%E0%B8%B2%E0%B8%A7%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%81%E0%B8%81%E0%B8%B0%E0%B8%A2%E0%B8%B7%E0%B8%99%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%81%E0%B8%B1%E0%B8%99%E0%B8%9A%E0%B8%99%E0%B8%97%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AB%E0%B8%8D%E0%B9%89%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%82%E0%B8%88%E0%B8%B5.jpg?s=2048x2048&w=is&k=20&c=WfHb_t6l883QlxvcDRETpbh9RphJu20avu60IqDYiik=" class="d-block w-100" alt="Dorper 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://media.istockphoto.com/id/2236850582/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%9D%E0%B8%B9%E0%B8%87%E0%B9%81%E0%B8%81%E0%B8%B0%E0%B8%9C%E0%B8%AA%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C-santa-in%C3%AAs-%E0%B9%81%E0%B8%A5%E0%B8%B0-dorper-%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%81%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B8%B7%E0%B8%AD-s.jpg?s=612x612&w=0&k=20&c=ajZ99nZxBukt55h0Uo-0fhQTDlAKCLxbzmcyP5OPqCk=" class="d-block w-100" alt="Dorper 4">
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray">
+        <div class="solution-header">
+            <h2>เจาะลึกสายพันธุ์ดอร์เปอร์</h2>
+            <p>ทำไมเกษตรกรไทยถึงเลือกเลี้ยงแกะสายพันธุ์นี้</p>
+        </div>
+        <div class="solution-content">
+            <div class="item">
+                <h3>ต้นกำเนิดและการปรับตัว</h3>
+                <p>พัฒนาสายพันธุ์ในแอฟริกาใต้ช่วงปี 1930 เพื่อความทนทานต่อสภาพอากาศที่เลวร้ายและแห้งแล้ง จึงปรับตัวเข้ากับอากาศร้อนในประเทศไทยได้ดีเยี่ยมเมื่อเทียบกับสายพันธุ์ยุโรป</p>
+            </div>
+            <div class="item">
+                <h3>ลักษณะกายภาพที่โดดเด่น</h3>
+                <p>มีทั้งหน้าดำตัวขาวและขาวล้วน เป็นแกะประเภท Hair Sheep ขนสั้นผลัดเองตามธรรมชาติ ทำให้ประหยัดค่าใช้จ่ายและเวลาในการดูแลตัดแต่งขน</p>
+            </div>
+            <div class="item">
+                <h3>คุณภาพเนื้ออันดับต้นๆ</h3>
+                <p>ได้ชื่อว่าเป็นแกะเนื้อคุณภาพสูง เจริญเติบโตเร็ว ให้ปริมาณเนื้อแดงมาก ไขมันแทรกน้อย และไม่มีกลิ่นสาบเฉพาะตัวที่รุนแรง เป็นที่ต้องการของตลาดอย่างมาก</p>
+            </div>
+        </div>
+    </div>
+    <div class="feature-section">
+    <div class="feature-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiN2rUJYXJ-jyHqZKy1F8D-0XMUVRprRRwzw&s" alt="Dorper Management">
+    </div>
+    <div class="feature-text">
+        <h3>การจัดการสายพันธุ์ดอร์เปอร์</h3>
+        <div class="feature-item">
+            <strong>📊 ประหยัดค่าจัดการ (Management Efficiency)</strong>
+            <p>ดูแลรักษาง่าย มีความทนทานสูงต่อโรคและพยาธิ ช่วยลดค่าใช้จ่ายด้านเวชภัณฑ์และแรงงานดูแลได้มากกว่าแกะสายพันธุ์อื่น</p>
+        </div>
+        <div class="feature-item">
+            <strong>✂️ ขนผลัดเอง (Self-Shedding Coat)</strong>
+            <p>เป็นแกะประเภท Hair Sheep ที่ขนจะสั้นและหลุดลอกเองตามธรรมชาติ เกษตรกรไม่ต้องกังวลเรื่องการจ้างช่างมาตัดขนแกะ</p>
+        </div>
+        <div class="feature-item">
+            <strong>🧬 พ่อพันธุ์ชั้นเลิศ (Terminal Sire Power)</strong>
+            <p>นิยมนำไปใช้เป็นพ่อพันธุ์เพื่อผลิตลูกแกะลูกผสม ให้ลูกที่เกิดมามีโครงสร้างใหญ่ โตไว และได้เกรดเนื้อแดงที่สม่ำเสมอ</p>
+        </div>
+    </div>
+</div>
+
+
+ <div class="detail-card">
+        <h3>แผนภูมิการเจริญเติบโต (Growth Stage)</h3>
+        <div class="growth-item">
+            <span>แรกเกิด (4-5 กก.)</span>
+            <div class="growth-bar"><div class="growth-fill" style="width: 15%;">15%</div></div>
+        </div>
+        <div class="growth-item">
+            <span>หย่านม 3 เดือน (35-40 กก.)</span>
+            <div class="growth-bar"><div class="growth-fill" style="width: 45%;">45%</div></div>
+        </div>
+        <div class="growth-item">
+            <span>โตเต็มวัย 12 เดือน (90+ กก.)</span>
+            <div class="growth-bar"><div class="growth-fill" style="width: 100%;">100%</div></div>
+        </div>
     </div>
 
-    <div class="detail-card">
-        <h3>ลักษณะเด่น</h3>
-        <ul>
-            <li>น้ำหนักโตเต็มวัย 90-120 กก.</li>
-            <li>โตเร็ว อัตรารอดสูง</li>
-            <li>ไม่ต้องตัดขนบ่อย</li>
-        </ul>
-    </div>
 
     <div class="detail-card">
-        <h3>วิธีเลี้ยง</h3>
-        <p>ควรเลี้ยงในพื้นที่แห้ง มีน้ำสะอาด อาหารหญ้าสดเสริมโปรตีน</p>
+        <h3>ตารางคุณสมบัติประจำสายพันธุ์</h3>
+        <table class="comparison-table">
+            <tr><td>น้ำหนักตัวผู้เต็มวัย</td><td>100 - 120 กก.</td></tr>
+            <tr><td>น้ำหนักตัวเมียเต็มวัย</td><td>70 - 90 กก.</td></tr>
+            <tr><td>ลักษณะขน</td><td>ขนสั้น ผลัดขนเอง (Hair Sheep)</td></tr>
+            <tr><td>อัตราการให้เนื้อ</td><td>สูงมาก (เนื้อนุ่ม ไขมันแทรกน้อย)</td></tr>
+        </table>
+    </div>
+
+   
+
+    <div class="nav-buttons">
+        <a href="sheep.html" class="btn">⬅ กลับหน้าหลัก</a>
+        <a href="suffolk.html" class="btn">ถัดไป (Suffolk) ➡</a>
     </div>
 </section>
 
-<footer>
-    <p>© 2026 Sheepland</p>
-</footer>
+<footer><p>© 2026 Sheepland</p></footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
